@@ -79,13 +79,26 @@ before creating the commit message (as husky will stop and tell error
 if the commit message is not compliant to standards).
 
 
-### Generate updated changelog
+## Releasing new version
 
-When git commits 
+When you want to release a new version of the application, use the pre-configured scripts to automate much of the release process.
 
-- Generate new items to the top of `CHANGELOG.md` file:
-  ```sh
-  npm run update-changelog
-  ```
-- Check that the updated `CHANGELOG.md` is valid.
-- Note that if you haven't changed the version number from `package.json` file, you will get duplicate entries to the top of your `package.json` file.
+[standard-version](https://github.com/conventional-changelog/standard-version#standard-version) does automatic versioning and CHANGELOG generation, using
+[conventional commit messages](https://conventionalcommits.org).
+
+_How it works:_
+
+1. When you land commits on your `master` branch, select the _Squash and Merge_ option.
+2. Add a title and body to the commit message that follows the [Conventional Commits Specification](https://conventionalcommits.org).
+3. When you're ready to release:
+  1. `git checkout master; git pull origin master`
+  2. run `standard-version` with `npm run release`
+  3. `git push --follow-tags origin master`
+
+`standard-version` does the following:
+
+1. Bumps the version in _package.json/bower.json_ (based on your commit history)
+2. Uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_
+3. Commits _package.json (et al.)_ and _CHANGELOG.md_
+4. Tags a new release
+
