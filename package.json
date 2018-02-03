@@ -10,6 +10,9 @@
     "lint": "xo",
     "test": "npm run lint",
     "build-docker": "docker build -t d2s/events-api:latest .",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "git-commit": "git-cz"
   },
   "env": {
@@ -21,7 +24,7 @@
   "keywords": [
     "api"
   ],
-  "author": "Daniel Schildt",
+  "author": "Daniel Schildt <daniel.schildt@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "callbag-basics": "^1.2.0",
@@ -29,12 +32,20 @@
     "node-fetch": "^1.7.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-conventional": "^6.1.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "eslint-config-prettier": "2.3.0",
+    "husky": "^0.14.3",
     "micro-dev": "^2.2.0",
     "prettier": "1.5.3",
     "xo": "0.18.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "config": {
     "commitizen": {
