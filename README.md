@@ -55,8 +55,18 @@ docker-compose up
 
 - `.gitignore` is based on the [Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore) example ignore patterns.
 
-Create new Git commits by running:
+### Create new Git commits
 
-```sh
-npm run commit
-```
+- Check what files have changed, and look what branch you are now:
+  ```sh
+  git status
+  ```
+- Add required files to the Git staging area:
+  ```sh
+  git add FILENAME
+  ```
+- Create a new commit:
+  ```sh
+  npm run git-commit
+  ```
+

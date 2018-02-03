@@ -5,12 +5,12 @@
   "description": "Events API",
   "main": "src/index.js",
   "scripts": {
-    "commit": "git-cz",
     "dev": "micro-dev",
     "start": "micro",
     "lint": "xo",
     "test": "npm run lint",
-    "build-docker": "docker build -t d2s/events-api:latest ."
+    "build-docker": "docker build -t d2s/events-api:latest .",
+    "git-commit": "git-cz"
   },
   "env": {
     "NODE_ENV": "production"
