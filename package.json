@@ -13,7 +13,9 @@
     "precommit": "npm test",
     "prepush": "npm test",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "git-commit": "git-cz"
+    "git-commit": "git-cz",
+    "update-changelog": "standard-changelog",
+    "release": "standard-version"
   },
   "env": {
     "NODE_ENV": "production"
@@ -40,6 +42,8 @@
     "husky": "^0.14.3",
     "micro-dev": "^2.2.0",
     "prettier": "1.5.3",
+    "standard-changelog": "^1.0.8",
+    "standard-version": "^4.3.0",
     "xo": "0.18.2"
   },
   "commitlint": {

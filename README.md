@@ -72,3 +72,20 @@ docker-compose up
   npm run git-commit
   ```
 
+Alternative to that, you could use `git commit` directly.
+Commit message will be automatically validated by `husky`.
+Please write down the commit message to another text file/buffer
+before creating the commit message (as husky will stop and tell error
+if the commit message is not compliant to standards).
+
+
+### Generate updated changelog
+
+When git commits 
+
+- Generate new items to the top of `CHANGELOG.md` file:
+  ```sh
+  npm run update-changelog
+  ```
+- Check that the updated `CHANGELOG.md` is valid.
+- Note that if you haven't changed the version number from `package.json` file, you will get duplicate entries to the top of your `package.json` file.
