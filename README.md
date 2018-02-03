@@ -2,6 +2,8 @@
 
 JSON API for listing events related details.
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://github.com/commitizen/cz-cli)
+
 
 ## Development guidelines
 
