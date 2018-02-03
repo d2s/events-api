@@ -1,0 +1,44 @@
+{
+  "name": "events-api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Events API",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "micro-dev",
+    "start": "micro",
+    "lint": "xo",
+    "test": "npm run lint",
+    "build-docker": "docker build -t d2s/events-api:latest ."
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "xo": {
+    "extends": "prettier"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Daniel Schildt",
+  "license": "MIT",
+  "dependencies": {
+    "callbag-basics": "^1.2.0",
+    "micro": "^9.1.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint-config-prettier": "2.3.0",
+    "micro-dev": "^2.2.0",
+    "prettier": "1.5.3",
+    "xo": "0.18.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
