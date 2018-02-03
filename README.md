@@ -10,10 +10,10 @@ JSON API for listing events related details.
 ### Setting up local development environment
 
 ```sh
-git clone URL
+git clone https://github.com/d2s/events-api.git
+cd events-api
 npm install
 ```
-
 
 
 ## Dependencies
