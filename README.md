@@ -4,7 +4,6 @@ JSON API for listing events related details.
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://github.com/commitizen/cz-cli)
 
-
 ## Development guidelines
 
 ### Setting up local development environment
@@ -15,12 +14,16 @@ cd events-api
 npm install
 ```
 
+### Running the application locally
+
+```sh
+npm run dev
+```
 
 ## Dependencies
 
 - [Micro](https://www.npmjs.com/package/micro)
   - _Asynchronous HTTP microservices_
-
 
 ### Development dependencies
 
@@ -28,7 +31,6 @@ npm install
   - _CLI provides tools for building microservices a breeze!_
 - [xo](https://www.npmjs.com/package/xo)
   - _Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code._
-
 
 ## Running the application with Docker
 
@@ -52,7 +54,6 @@ _TODO:_ Write full instructions on how to run the application with Docker. (Not 
 docker-compose up
 ```
 
-
 ## Git commits
 
 - `.gitignore` is based on the [Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore) example ignore patterns.
@@ -60,24 +61,23 @@ docker-compose up
 ### Create new Git commits
 
 - Check what files have changed, and look what branch you are now:
-  ```sh
-  git status
-  ```
+    ```sh
+    git status
+    ```
 - Add required files to the Git staging area:
-  ```sh
-  git add FILENAME
-  ```
+    ```sh
+    git add FILENAME
+    ```
 - Create a new commit:
-  ```sh
-  npm run git-commit
-  ```
+    ```sh
+    npm run git-commit
+    ```
 
 Alternative to that, you could use `git commit` directly.
 Commit message will be automatically validated by `husky`.
 Please write down the commit message to another text file/buffer
 before creating the commit message (as husky will stop and tell error
 if the commit message is not compliant to standards).
-
 
 ## Releasing new version
 
@@ -91,9 +91,9 @@ _How it works:_
 1. When you land commits on your `master` branch, select the _Squash and Merge_ option.
 2. Add a title and body to the commit message that follows the [Conventional Commits Specification](https://conventionalcommits.org).
 3. When you're ready to release:
-  1. `git checkout master; git pull origin master`
-  2. run `standard-version` with `npm run release`
-  3. `git push --follow-tags origin master`
+    1. `git checkout master; git pull origin master`
+    2. run `standard-version` with `npm run release`
+    3. `git push --follow-tags origin master`
 
 `standard-version` does the following:
 
@@ -101,4 +101,3 @@ _How it works:_
 2. Uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_
 3. Commits _package.json (et al.)_ and _CHANGELOG.md_
 4. Tags a new release
-
