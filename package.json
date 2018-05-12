@@ -53,6 +53,9 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": ["prettier --write", "git add"]
+    "*.{json,md}": ["prettier --write", "git add"],
+    "*.css": ["stylelint", "prettier --write", "git add"],
+    "*.scss": ["stylelint --syntax=scss", "prettier --write", "git add"],
+    "*.{js}": ["prettier --write", "git add"]
   }
 }
