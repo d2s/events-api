@@ -10,7 +10,7 @@
     "lint": "xo",
     "test": "npm run lint",
     "build-docker": "docker build -t d2s/events-api:latest .",
-    "precommit": "npm test",
+    "precommit": "lint-staged",
     "prepush": "npm test",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "git-commit": "git-cz",
@@ -23,9 +23,7 @@
   "xo": {
     "extends": "prettier"
   },
-  "keywords": [
-    "api"
-  ],
+  "keywords": ["api"],
   "author": "Daniel Schildt <daniel.schildt@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -40,19 +38,21 @@
     "cz-conventional-changelog": "^2.1.0",
     "eslint-config-prettier": "2.9.0",
     "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
     "micro-dev": "^2.2.2",
     "prettier": "1.12.1",
     "standard-version": "^4.3.0",
     "xo": "0.21.0"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": ["prettier --write", "git add"]
   }
 }
