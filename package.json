@@ -1,19 +1,16 @@
 {
   "name": "events-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Events API",
   "main": "src/index.js",
   "scripts": {
     "dev": "micro-dev",
     "start": "micro",
-    "lint": "xo",
+    "lint": "npx xo",
     "test": "npm run lint",
     "build-docker": "docker build -t d2s/events-api:latest .",
-    "precommit": "lint-staged",
-    "prepush": "npm test",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "git-commit": "git-cz",
+    "git-commit": "npx git-cz",
     "update-changelog": "standard-changelog",
     "release": "standard-version"
   },
@@ -76,5 +73,12 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
   }
 }
