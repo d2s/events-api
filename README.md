@@ -56,22 +56,27 @@ docker-compose up
 
 ## Git commits
 
-- `.gitignore` is based on the [Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore) example ignore patterns.
+`.gitignore` is based on the [Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore) example ignore patterns.
 
 ### Create new Git commits
 
-- Check what files have changed, and look what branch you are now:
-    ```sh
-    git status
-    ```
-- Add required files to the Git staging area:
-    ```sh
-    git add FILENAME
-    ```
-- Create a new commit:
-    ```sh
-    npm run git-commit
-    ```
+#### Check what files have changed, and look what branch you are now
+
+```sh
+git status
+```
+
+#### Add required files to the Git staging area
+
+```sh
+git add FILENAME
+```
+
+#### Create a new commit
+
+```sh
+npm run git-commit
+```
 
 Alternative to that, you could use `git commit` directly.
 Commit message will be automatically validated by `husky`.
@@ -91,9 +96,9 @@ _How it works:_
 1. When you land commits on your `master` branch, select the _Squash and Merge_ option.
 2. Add a title and body to the commit message that follows the [Conventional Commits Specification](https://conventionalcommits.org).
 3. When you're ready to release:
-    1. `git checkout master; git pull origin master`
-    2. run `standard-version` with `npm run release`
-    3. `git push --follow-tags origin master`
+   1. `git checkout master; git pull origin master`
+   2. run `standard-version` with `npm run release`
+   3. `git push --follow-tags origin master`
 
 `standard-version` does the following:
 
