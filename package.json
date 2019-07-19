@@ -23,29 +23,34 @@
   "xo": {
     "extends": "prettier"
   },
-  "keywords": ["api"],
+  "keywords": [
+    "api"
+  ],
   "author": "Daniel Schildt <daniel.schildt@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "callbag-basics": "^3.0.0",
-    "micro": "^9.3.0",
-    "node-fetch": "^2.1.2"
+    "callbag-basics": "^3.0.1",
+    "git-cz": "^3.2.1",
+    "micro": "^9.3.4",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.2.0",
-    "@commitlint/config-conventional": "^6.1.3",
-    "commitizen": "^2.9.6",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "commitizen": "^4.0.1",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
-    "micro-dev": "^2.2.2",
-    "prettier": "1.12.1",
-    "standard-version": "^4.3.0",
-    "xo": "0.21.0"
+    "eslint-config-prettier": "6.0.0",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0",
+    "micro-dev": "^3.0.0",
+    "prettier": "1.18.2",
+    "standard-version": "^6.0.1",
+    "xo": "0.24.0"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "config": {
     "commitizen": {
@@ -53,9 +58,23 @@
     }
   },
   "lint-staged": {
-    "*.{json,md}": ["prettier --write", "git add"],
-    "*.css": ["stylelint", "prettier --write", "git add"],
-    "*.scss": ["stylelint --syntax=scss", "prettier --write", "git add"],
-    "*.{js}": ["prettier --write", "git add"]
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint",
+      "prettier --write",
+      "git add"
+    ],
+    "*.scss": [
+      "stylelint --syntax=scss",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
