@@ -96,13 +96,13 @@ _How it works:_
 1. When you land commits on your `master` branch, select the _Squash and Merge_ option.
 2. Add a title and body to the commit message that follows the [Conventional Commits Specification](https://conventionalcommits.org).
 3. When you're ready to release:
-   1. `git checkout master; git pull origin master`
-   2. run `standard-version` with `npm run release`
-   3. `git push --follow-tags origin master`
+   1. run: `git checkout master; git pull origin master`
+   2. run: `npm run release`
+   3. run: `git push --follow-tags origin master`
 
-`standard-version` does the following:
+`npm run release` (that is an alias for `standard-version`) does the following:
 
-1. Bumps the version in _package.json/bower.json_ (based on your commit history)
+1. Bumps the version in _package.json_ (based on your commit history)
 2. Uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_
 3. Commits _package.json (et al.)_ and _CHANGELOG.md_
 4. Tags a new release
