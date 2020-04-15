@@ -23,14 +23,14 @@ npm run dev
 ## Dependencies
 
 - [Micro](https://www.npmjs.com/package/micro)
-  - _Asynchronous HTTP microservices_
+  - "Asynchronous HTTP microservices"
 
 ### Development dependencies
 
 - [micro-dev](https://www.npmjs.com/package/micro-dev)
-  - _CLI provides tools for building microservices a breeze!_
+  - "CLI provides tools for building microservices a breeze!"
 - [xo](https://www.npmjs.com/package/xo)
-  - _Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code._
+  - "Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code."
 
 ## Running the application with Docker
 
@@ -93,7 +93,7 @@ When you want to release a new version of the application, use the pre-configure
 
 _How it works:_
 
-1. When you land commits on your `master` branch, select the _Squash and Merge_ option.
+1. When you land commits on your `master` branch, select the "Squash and Merge" option.
 2. Add a title and body to the commit message that follows the [Conventional Commits Specification](https://conventionalcommits.org).
 3. When you're ready to release:
    1. run: `git checkout master; git pull origin master`
