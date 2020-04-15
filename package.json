@@ -34,7 +34,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.3.3",
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.0.4",
     "cz-conventional-changelog": "^3.0.2",
     "eslint-config-prettier": "6.9.0",
     "husky": "^3.1.0",
@@ -42,7 +42,7 @@
     "micro-dev": "^3.0.0",
     "prettier": "1.18.2",
     "standard-version": "^7.0.0",
-    "xo": "0.25.3"
+    "xo": "0.26.0"
   },
   "commitlint": {
     "extends": [
