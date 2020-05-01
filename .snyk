@@ -1,0 +1,76 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@commitlint/cli > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - commitizen > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-changelog > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - '@commitlint/cli > @commitlint/load > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-changelog > conventional-changelog-core > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-changelog-conventionalcommits > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-changelog > conventional-changelog-conventionalcommits > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/rules > @commitlint/ensure > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - '@commitlint/config-conventional > conventional-changelog-conventionalcommits > lodash':
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - commitizen > inquirer > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T02:29:55.448Z'
