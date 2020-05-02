@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/d2s/events-api/compare/v4.0.0...v4.0.1) (2020-05-02)
+
+### Bug Fixes
+
+- **npm:** update dependencies with npm up ([0d627e9](https://github.com/d2s/events-api/commit/0d627e92b9ebf4e5d1fd331c7841fa10b5409f37))
+- package.json, package-lock.json & .snyk to reduce vulnerabilities ([0cbf23f](https://github.com/d2s/events-api/commit/0cbf23f0cf9f663a1e1e0e5bd433abe3cb1033ee))
+- package.json, package-lock.json & .snyk to reduce vulnerabilities ([1d69e9a](https://github.com/d2s/events-api/commit/1d69e9a542597cf195222e8cd60432ff95d09fb1))
+- package.json, package-lock.json & .snyk to reduce vulnerabilities ([8ceec94](https://github.com/d2s/events-api/commit/8ceec94bc3fb7633af8bfc5a19c73d92d99eddce))
+- upgrade standard-changelog from 2.0.21 to 2.0.22 ([1a13623](https://github.com/d2s/events-api/commit/1a136232d5747996483aa447a61ccde3c10fffba))
+
 ## [4.0.0](https://github.com/d2s/events-api/compare/v3.0.0...v4.0.0) (2020-04-15)
 
 ### ⚠ BREAKING CHANGES
