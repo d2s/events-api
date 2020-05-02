@@ -98,7 +98,7 @@ _How it works:_
 3. When you're ready to release:
    1. run: `git checkout master; git pull origin master`
    2. run: `npm run release`
-   3. run: `git push --follow-tags origin master`
+   3. run: `npm run git-push-tags`
 
 `npm run release` (that is an alias for `standard-version`) does the following:
 
