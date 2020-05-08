@@ -46,7 +46,7 @@
     "micro-dev": "^3.0.0",
     "prettier": "2.0.4",
     "standard-changelog": "^2.0.22",
-    "standard-version": "^7.1.0",
+    "standard-version": "^8.0.0",
     "xo": "0.29.1"
   },
   "commitlint": {
