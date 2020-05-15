@@ -15,7 +15,8 @@
     "release": "standard-version",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",
-    "git-push-tags": "git push --follow-tags origin master"
+    "git-push-tags": "git push --follow-tags origin master",
+    "node-run": "node micro"
   },
   "env": {
     "NODE_ENV": "production"
