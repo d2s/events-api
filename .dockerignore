@@ -1,0 +1,8 @@
+.github
+.vscode
+.dockerignore
+.editorconfig
+.gitignore
+.events-api.code-workspace
+docker-compose.yml
+Dockerfile
