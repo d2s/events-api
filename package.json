@@ -34,12 +34,12 @@
     "git-cz": "^3.3.0",
     "micro": "^9.3.4",
     "node-fetch": "^2.6.0",
-    "snyk": "^1.316.2"
+    "snyk": "^1.319.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "commitizen": "^4.0.5",
+    "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "eslint-config-prettier": "6.11.0",
     "husky": "^4.2.5",
