@@ -30,24 +30,24 @@
   "author": "Daniel Schildt <daniel.schildt@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "callbag-basics": "^3.2.0",
-    "git-cz": "^3.3.0",
-    "micro": "^9.3.4",
-    "node-fetch": "^2.6.0",
-    "snyk": "^1.321.0"
+    "callbag-basics": "3.2.0",
+    "git-cz": "3.3.0",
+    "micro": "9.3.4",
+    "node-fetch": "2.6.0",
+    "snyk": "1.321.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "commitizen": "^4.1.2",
-    "cz-conventional-changelog": "^3.2.0",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
     "eslint-config-prettier": "6.11.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.2",
-    "micro-dev": "^3.0.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.2",
+    "micro-dev": "3.0.0",
     "prettier": "2.0.5",
-    "standard-changelog": "^2.0.24",
-    "standard-version": "^8.0.0",
+    "standard-changelog": "2.0.24",
+    "standard-version": "8.0.0",
     "xo": "0.30.0"
   },
   "commitlint": {
