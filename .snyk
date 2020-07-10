@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.16.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -74,3 +74,11 @@ patch:
         patched: '2020-05-01T02:29:55.448Z'
     - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
         patched: '2020-05-01T02:29:55.448Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-07-10T02:29:28.454Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-10T02:29:28.454Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-10T02:29:28.454Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-10T02:29:28.454Z'
