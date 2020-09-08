@@ -34,7 +34,7 @@
     "git-cz": "4.7.1",
     "micro": "9.3.4",
     "node-fetch": "2.6.0",
-    "snyk": "1.387.0"
+    "snyk": "1.392.1"
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
