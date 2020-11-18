@@ -46,7 +46,7 @@
     "lint-staged": "10.5.1",
     "micro-dev": "3.0.0",
     "prettier": "2.1.2",
-    "standard-changelog": "2.0.26",
+    "standard-changelog": "2.0.27",
     "standard-version": "9.0.0",
     "xo": "0.34.2"
   },
