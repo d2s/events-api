@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "callbag-basics": "3.2.0",
-    "git-cz": "4.7.4",
+    "git-cz": "4.7.6",
     "micro": "9.3.4",
     "node-fetch": "2.6.1",
     "snyk": "1.430.2"
