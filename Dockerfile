@@ -2,7 +2,7 @@
 # Based on the:
 # - Minimal Node.js Docker Images built on Alpine Linux
 #   - https://github.com/mhart/alpine-node
-FROM mhart/alpine-node:8 as builder
+FROM mhart/alpine-node:16 as builder
 
 # Set one or more individual labels
 LABEL name "d2s/events-api"
