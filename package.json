@@ -45,7 +45,7 @@
     "husky": "4.3.8",
     "lint-staged": "11.0.0",
     "micro-dev": "3.0.0",
-    "prettier": "2.3.0",
+    "prettier": "2.3.1",
     "standard-changelog": "2.0.27",
     "standard-version": "9.3.0",
     "xo": "0.39.1"
