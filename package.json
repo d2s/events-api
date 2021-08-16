@@ -43,7 +43,7 @@
     "cz-conventional-changelog": "3.3.0",
     "eslint-config-prettier": "8.3.0",
     "husky": "4.3.8",
-    "lint-staged": "11.1.1",
+    "lint-staged": "11.1.2",
     "micro-dev": "3.0.0",
     "prettier": "2.3.2",
     "standard-changelog": "2.0.27",
