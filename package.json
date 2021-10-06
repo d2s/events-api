@@ -33,7 +33,7 @@
     "callbag-basics": "4.0.0",
     "git-cz": "4.7.6",
     "micro": "9.3.4",
-    "node-fetch": "2.6.1",
+    "node-fetch": "2.6.5",
     "snyk": "1.731.0"
   },
   "devDependencies": {
