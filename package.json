@@ -37,8 +37,8 @@
     "snyk": "1.885.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
-    "@commitlint/config-conventional": "16.2.1",
+    "@commitlint/cli": "16.3.0",
+    "@commitlint/config-conventional": "16.2.4",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint-config-prettier": "8.5.0",
