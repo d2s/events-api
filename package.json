@@ -46,9 +46,9 @@
     "lint-staged": "11.2.6",
     "micro-dev": "3.1.0",
     "prettier": "2.8.3",
-    "standard-changelog": "2.0.27",
+    "standard-changelog": "4.0.0",
     "standard-version": "9.3.2",
-    "xo": "0.39.1"
+    "xo": "0.42.0"
   },
   "commitlint": {
     "extends": [
